@@ -1,48 +1,56 @@
 # Community Game Servers
 
-> DeadCommunity product showcase — **no source code**.
+> ◆ DeadCommunity product card — **no source code · no API keys**.
 
-**Role:** Minecraft & Palworld community servers
+### ◆ Role
 
-Always-on game servers for the community, including Minecraft (modded/ops tooling) and Palworld.
+**Minecraft & Palworld servers**
 
-## Live
+Always-on game servers for the community, including Minecraft ops tooling and Palworld.
 
-_Hostname not public yet — service runs on our production host._
+### ◆ Live
 
-## What it does
+↳ _Hostname not public yet — service runs on our production host._
 
-- Public game ports for community play
-- Backup / resourcepack helpers where configured
-- Operated alongside the rest of DeadCommunity infra
+### ◆ What it does
 
-## Who it’s for
+▸ Public game ports for community play
+▸ Backup / resourcepack helpers where configured
+▸ Operated beside the rest of DC infra
 
-Community gamers
+### ◆ Highlights
 
-## Stack (high level)
+○ Community play surfaces
+○ Ops-owned
+○ Showcase only
+
+### ◆ Who it’s for
+
+▸ Community gamers
+
+### ◆ Stack (high level)
 
 `Minecraft (itzg)` · `Palworld server` · `Docker` · `Backup sidecars`
 
-## Status
+### ◆ Status
 
-- **Production:** running on DeadCommunity infrastructure  
-- **Source:** private (not published)  
-- **Operator model:** idea → UI/API → Docker deploy → uptime  
+| ▣ | ○ |
+|:--|:--|
+| Production | Running on DeadCommunity infrastructure |
+| Source | **Private** (not published) |
+| Public surface | This README + live URL only |
+| Operator model | ■ scope → ■ build → ■ containerize → ■ hostname → ■ iterate |
 
+### ◆ Policy
+
+| Included | Not included |
+|:---------|:-------------|
+| Purpose · live link · stack overview | Application source |
+| High-level architecture notes | `.env` · secrets · API keys · tokens |
+| Operator story | Production private configs |
 
 ---
 
-## About this repository
-
-This is a **public product card**, not a source dump.
-
-| Included | Not included |
-|----------|--------------|
-| What the product is | Application source code |
-| Live URL (when public) | `.env`, secrets, API keys |
-| High-level stack | Production private configs |
-
-Index of all products: [deadcommunity-showcase](https://github.com/Semaru47/deadcommunity-showcase)  
-Profile: [github.com/Semaru47](https://github.com/Semaru47) · Site: [deadcommunity.com](https://deadcommunity.com)
-
+↳ Index: [deadcommunity-showcase](https://github.com/Semaru47/deadcommunity-showcase)  
+↳ Profile: [github.com/Semaru47](https://github.com/Semaru47)  
+↳ Brand: [deadcommunity.com](https://deadcommunity.com)
